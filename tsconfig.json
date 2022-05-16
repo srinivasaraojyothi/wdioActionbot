@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        
+        "types": [
+            "node",
+            "webdriverio/async",
+            "@wdio/cucumber-framework",
+            "@wdio/devtools-service"
+        ],
+        "esModuleInterop":true,
+        "noEmit": false,
+        "rootDirs":["./src","./test"] ,
+        "outDir": "./dist"
+    },
+    "include": [
+        "./src",
+        "./test/**/*.ts",
+        "./src/types/**/*.ts" ]
+}
