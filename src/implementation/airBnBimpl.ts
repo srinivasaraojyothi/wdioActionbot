@@ -1,5 +1,5 @@
 import { Given, When } from '@wdio/cucumber-framework'
-import { me } from '../../common'
+import { me } from '../../me'
 
 
 Given('user navigates to amazon', async function () {
